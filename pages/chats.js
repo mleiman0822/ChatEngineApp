@@ -39,7 +39,7 @@ export default function Home() {
           projectID="650ee5f3-e7b3-4fd2-b22f-a62ba13ee8db"
           userName={username}
           userSecret={secret}
-         
+          renderNewMessageForm={() => <MessageFormSocial />}
         />
       </div>
     </div>
